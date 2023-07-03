@@ -68,7 +68,7 @@ for (i=0;i<=15;i=i+1)
         assign y_shift = y[i]>>>i;
         always@(posedge clk)
             begin
-            x[i+1] <= z_sign ? x[i] + y_shift : x[i] - y_shift;
+            	    x[i+1] <= z_sign ? x[i] + y_shift : x[i] - y_shift;
 		    y[i+1] <= z_sign ? y[i] - x_shift : y[i] + x_shift;
 		    z[i+1] <= z_sign ? z[i] + atan[i] : z[i] - atan[i];
             end  
