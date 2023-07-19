@@ -7,4 +7,5 @@ Verilog code to display the output co-ordinates onto the 7 segment display of an
 ## cordic_tb.v:
 Verilog testbench which works for both of the above mentioned designs.
 ## ASIC vs FPGA comparison:
-The power, timing and area of Cordic algorithm is computed and compared in case of ASIC and FPGA separately for both pipelined and non-pipelined architectures.(To be updated here)
+The power, timing and area of Cordic algorithm is computed and compared in case of ASIC and FPGA separately for both pipelined and non-pipelined architectures
+(To be updated)
